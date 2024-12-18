@@ -5,6 +5,8 @@ import {registerLicense} from '@syncfusion/ej2-base'
 import {ContextProvider} from './contexts/ContextProvider'
 
 registerLicense(import.meta.env.VITE_SYNCFUSION_API_KEY)
+console.log(import.meta.env.VITE_SYNCFUSION_API_KEY);
+
 
 createRoot(document.getElementById('root')).render(
     <ContextProvider>
