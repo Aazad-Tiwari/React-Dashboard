@@ -55,7 +55,7 @@ Check out the live demo of the application: [React Dashboard](https://react-dash
 
 3. **Set up environment variables**:
 
-   Create a `.env` file in the root directory if required and configure your environment variables.
+   Create a `.env` file in the root directory and add `VITE_SYNCFUSION_API_KEY`.
 
 ## Usage
 
